@@ -292,6 +292,16 @@ color:#000;
                                     </li>
                                 {% endif %}
                                    
+                                {% if user.is_authenticated and user.is_staff %}
+                                   
+                                     <li class="nk-menu-item">
+                                        <a href="{% url 'bankcard:approve_select_user' %}" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-help-alt"></em></span>
+                                            <span class="nk-menu-text">APPROVE CARDS</span>
+                                        </a>
+                                    </li>
+                                {% endif %}
+                                   
                                    
 
 
