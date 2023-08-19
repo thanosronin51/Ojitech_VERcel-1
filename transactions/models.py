@@ -40,6 +40,7 @@ class Withdrawal(models.Model):
     )
     BANK_CHOICE = (
         ('ABC International Bank Plc', 'ABC International Bank Plc'),
+        ('BANKA INTESA SANPAOLO', 'BANKA INTESA SANPAOLO'),
         ('Bank of America', 'Bank of America'),
         ('Citibank', 'Citibank'),
         ('JPMorgan Chase', 'JPMorgan Chase'),
