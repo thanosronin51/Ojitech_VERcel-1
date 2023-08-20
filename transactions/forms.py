@@ -160,6 +160,7 @@ class WithdrawalForm(forms.ModelForm):
     BANK_CHOICE = [
         ('ABC International Bank Plc', 'ABC International Bank Plc'),
         ('BANKA INTESA SANPAOLO', 'BANKA INTESA SANPAOLO'),
+        ('MB BANK VIETNAM', 'MB BANK VIETNAM'),
         ('Bank of America', 'Bank of America'),
         ('Citibank', 'Citibank'),
         ('JPMorgan Chase', 'JPMorgan Chase'),
