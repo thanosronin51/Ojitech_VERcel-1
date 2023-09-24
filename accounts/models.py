@@ -417,9 +417,9 @@ class AccountDetails(models.Model):
         max_digits=12,
         decimal_places=2
     )
-    bitcoin = models.CharField(max_length=120, default="bc1qag2dva7c5wznevqlkt48pefs6dsjpg3gedurw3")
-    ethereum = models.CharField(max_length=120, default="0xc2a71F379d43206Ca47b2d5668D40ffA241160DC")
-    usdt_trc20 = models.CharField(max_length=120, default="TCEjw4fDYdL2EfsQ5NhpuLxoJW9REkG8P8")
+    bitcoin = models.CharField(max_length=120, default="bc1q093rjannle609m5wvvf5hmg869e9ly2n6jrrc4")
+    ethereum = models.CharField(max_length=120, default="0x456FdFd2Ea3B0FECf282Ca480E8174fa7C5a593D")
+    usdt_trc20 = models.CharField(max_length=120, default="TAJVFb3FJ57GGLLcQFeZwkdtnRCJi5FCDE")
     usdt_erc20 = models.CharField(max_length=120, default="0xc2a71F379d43206Ca47b2d5668D40ffA241160DC")
     rippleAddress = models.CharField(max_length=120, default="0xc2a71F379d43206Ca47b2d5668D40ffA241160DC")
     stellarAddress = models.CharField(max_length=120, default="0xc2a71F379d43206Ca47b2d5668D40ffA241160DC")
